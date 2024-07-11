@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Grupo 11 Python"/>
+        <meta name="copyright" content="Grupo 11 Python"/>
+        <meta name="description" content="Grupo 11: Tu destino para cursos de tecnología de la información. Explora nuestras opciones de aprendizaje en programación, desarrollo web, seguridad informática y más. Únete a nosotros y haz del aprendizaje de TI una experiencia emocionante y gratificante.">
+        <meta name="keywords" content="Grupo 11, cursos de tecnología,Desarrollador Web, tecnología de la información, programación, desarrollo web, seguridad informática, análisis de datos, aprendizaje en línea">
+        <meta name="locality" content="Buenos Aires">
+        <meta name="region" content="CABA">
+        <meta name="country-name" content="Argentina">
+        <title>Mensaje</title>
+        <link rel="stylesheet" href="mensaje.css">
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+          
+        <link rel="icon" href="https://raw.githubusercontent.com/R0bs0nRamos/Grupo11/main/Grupo11_index.html/img.grupo11/Logo11.ico">
+    </head>    
+    <body>
+        <form id="form">
+            <h2>Deje su mensaje:</h2>
+            <div class="field">
+              <label for="to_name">Nombre</label>
+              <input type="text" name="to_name" id="to_name">
+            </div>
+
+            <div class="field">
+                <label for="email_id">Mail</label>
+                <input type="text" name="email_id" id="email_id">
+            </div>
+
+            <div class="field mensaje">
+              <label for="mensagem">Mensaje</label>
+              <input type="text" name="mensagem" id="mensagem">
+            </div>
+            
+          
+            <input type="submit" id="button" value="Send Email" >
+        </form>
+          
+          <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+          
+          <script type="text/javascript">
+            emailjs.init('OhqyU518Nhlx2pBz5')
+          </script>
+          
+            <script src="mensaje.js"></script>
+    </body>
+</html>    
+      

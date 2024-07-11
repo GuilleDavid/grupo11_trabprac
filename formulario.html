@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Grupo 11 Python"/><meta name="copyright" content="Grupo 11 Python"/>
+        <meta name="description" content="Grupo 11: Tu destino para cursos de tecnología de la información. Explora nuestras opciones de aprendizaje en programación, desarrollo web, seguridad informática y más. Únete a nosotros y haz del aprendizaje de TI una experiencia emocionante y gratificante.">
+        <meta name="keywords" content="Grupo 11, cursos de tecnología, tecnología de la información, programación, desarrollo web, seguridad informática, análisis de datos, aprendizaje en línea">
+        <meta name="locality" content="Buenos Aires">
+        <meta name="region" content="CABA">
+        <meta name="country-name" content="Argentina">
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" href="https://github.com/R0bs0nRamos/Grupo11/blob/main/Grupo11_index.html/img.grupo11/Logo11.png?raw=true">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Registro</h2>
+        <form id="loginForm">
+            <label for="email">Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="localidad">Localidad:</label>
+            <input type="text" id="localidad" name="localidad" required>
+
+            <label for="pais">País:</label>
+            <input type="text" id="pais" name="pais" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Registrarme</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
